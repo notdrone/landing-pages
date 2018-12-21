@@ -35,9 +35,12 @@ p {
 }
 
 .outer-container {
-  padding: 3rem 0;
+  padding: 3rem 2%;
 }
 
+.hero-inner-container {
+  padding-right: 10rem;
+}
 .detail-container {
   color: white;
 }
@@ -160,8 +163,8 @@ p {
 .detail-span {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: #c8f2ff;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .faq-items {
@@ -182,9 +185,13 @@ p {
   margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 730px) {
   :root {
     font-size: 12px;
+  }
+
+  .hero-inner-container {
+    padding-right: 0;
   }
 
   .title {
