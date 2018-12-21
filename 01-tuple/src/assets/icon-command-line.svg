@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="42px" viewBox="0 0 48 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-command-line</title>
+    <desc>Created with Sketch Beta.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="after" transform="translate(-255.000000, -1454.000000)">
+            <g id="icon-command-line" transform="translate(256.000000, 1455.000000)">
+                <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="46" height="40" rx="2"></rect>
+                <path d="M0,10 L46,10" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6.5,4.00000134 C5.67157288,4.00000134 5,4.67157421 5,5.50000134 C5,6.32842846 5.67157288,7.00000134 6.5,7.00000134 C7.32842712,7.00000134 8,6.32842846 8,5.50000134 C8.00053171,5.10201384 7.84266721,4.72017396 7.5612473,4.43875404 C7.27982738,4.15733413 6.8979875,3.99946962 6.5,4.00000134 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M12.5,4.00000134 C11.6715729,4.00000134 11,4.67157421 11,5.50000134 C11,6.32842846 11.6715729,7.00000134 12.5,7.00000134 C13.3284271,7.00000134 14,6.32842846 14,5.50000134 C14.0005317,5.10201384 13.8426672,4.72017396 13.5612473,4.43875404 C13.2798274,4.15733413 12.8979875,3.99946962 12.5,4.00000134 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M18.5,4.00000134 C17.6715729,4.00000134 17,4.67157421 17,5.50000134 C17,6.32842846 17.6715729,7.00000134 18.5,7.00000134 C19.3284271,7.00000134 20,6.32842846 20,5.50000134 C20.0005317,5.10201384 19.8426672,4.72017396 19.5612473,4.43875404 C19.2798274,4.15733413 18.8979875,3.99946962 18.5,4.00000134 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polyline id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="10 20 15 25 10 30"></polyline>
+                <path d="M22,26 L30,26" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
