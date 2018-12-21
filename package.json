@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:cssanimation-rocks": "parcel 02-cssanimation-rocks/src/index.html --open",
+    "build:cssanimation-rocks": "parcel build 02-cssanimation-rocks/src/index.html",
     "start:tuple": "parcel 01-tuple/src/index.html --open",
-    "build:tuple": "parcel build 01-tuple/src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:tuple": "parcel build 01-tuple/src/index.html"
   },
   "keywords": [],
   "author": "",
