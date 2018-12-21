@@ -107,12 +107,42 @@ p {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
-  grid-gap: 1rem;
+  grid-gap: 2rem 1rem;
   display: grid;
+  align-items: start;
   grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
 }
 
+.detail-item {
+  display: flex;
+  align-items: start;
+}
+
 .detail-item > img {
+  margin-right: 0.6rem;
+  margin-top: 0.2rem;
+  display: block;
+  transform: scale(0.6);
+  transform-origin: top left;
+  align-content: normal;
+}
+
+.detail-item > .detail-text > h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.detail-item > .detail-text > span {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #c8f2ff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.faq-container {
+  background: var(--text-primary);
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
