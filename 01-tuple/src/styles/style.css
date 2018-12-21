@@ -1,2 +1,158 @@
 :root {
+  --primary: #4652af;
+  --text-primary: #1f2e41;
+  --text-secondary: #465568;
+  --text-light: #465568;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.hero {
+  padding: 2rem 2%;
+  border-top: 8px solid var(--primary);
+  background: linear-gradient(to bottom, white, #f4f6f9);
+}
+
+.title {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 3.2rem;
+  font-size: 3.3rem;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  margin: 0;
+}
+
+.email-container > p {
+  font-weight: 500;
+}
+
+.email-container {
+  margin-bottom: 4rem;
+}
+
+.email-form {
+  display: inline-flex;
+  align-items: center;
+  height: 3rem;
+  margin: 2rem 0 3rem 0;
+  overflow: hidden;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 5, 0, 0.06), 0 15px 26px rgba(26, 35, 63, 0.1);
+  font-size: 1.5rem;
+}
+
+.email-form > input {
+  padding: 1rem;
+  min-width: 360px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.email-form > button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  height: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding: 0 1rem;
+}
+
+.detail-container {
+  background: var(--primary);
+  padding: 4.6rem 2%;
+  color: white;
+}
+
+.detail-container ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+}
+
+.detail-item > img {
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  .container {
+    margin: 0 8px;
+  }
+
+  .email-form {
+    height: unset;
+    overflow: visible;
+    width: 100%;
+    flex-direction: column;
+    box-shadow: none;
+    font-size: 1.4rem;
+    border-radius: unset;
+  }
+
+  .email-form > input {
+    min-width: unset;
+    height: unset;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 1rem auto;
+    box-shadow: 0 0 5px rgba(0, 5, 0, 0.06);
+  }
+
+  .email-form > button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1.2rem;
+    box-shadow: 0 0 5px rgba(0, 5, 0, 0.06), 0 5px 8px rgba(26, 35, 63, 0.1);
+  }
 }
