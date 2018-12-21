@@ -1,4 +1,6 @@
-landing pages
+# landing-pages
 
 
-1. [tuple](https://upbeat-lovelace-a535ac.netlify.com/)
+1. [Tuple](https://upbeat-lovelace-a535ac.netlify.com/)
+<img src="assets/tuple.png" alt="tuple"/>
+
