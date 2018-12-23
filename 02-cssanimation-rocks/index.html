@@ -6,6 +6,7 @@
     <!-- Custom styling for the header -->
     <link href="stylesheets/header.css" rel="stylesheet" />
     <link href="stylesheets/hover.css" rel="stylesheet" />
+    <link rel="stylesheet" href="stylesheets/tooltip.css" />
   </head>
   <body>
     <header>
@@ -29,7 +30,12 @@
     <article class="content">
       <p>
         ... and here is some text. This text shows show
-        <a href="https://cssanimation.rocks">CSS animation</a>
+        <a
+          title="Learn all about animating in the browser"
+          class="anchor-tooltip"
+          href="https://cssanimation.rocks"
+          >CSS animation</a
+        >
       </p>
       can help us make links be more fun and useful
     </article>
@@ -44,5 +50,6 @@
         )
       }
     </script>
+    <script src="js/tooltips.js"></script>
   </body>
 </html>
