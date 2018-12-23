@@ -25,5 +25,16 @@
         <img src="images/downarrow.png" alt="" width="50" />
       </section>
     </header>
+    <script>
+      document.body.className += "js-loading"
+
+      window.addEventListener("load", showPage, false)
+      function showPage() {
+        document.body.className = document.body.className.replace(
+          "js-loading",
+          "",
+        )
+      }
+    </script>
   </body>
 </html>
