@@ -12,7 +12,8 @@ header {
 }
 
 .animate-pop-in {
-  animation: pop-in 0.6s cubic-bezier(0, 0.99, 0.23, 1.22) forwards;
+  opacity: 0;
+  animation: pop-in 0.6s cubic-bezier(0, 0.99, 0.3, 1.2) forwards;
 }
 
 .rocky-dashed {
@@ -83,5 +84,16 @@ header:after {
   100% {
     transform: none;
     opacity: 1;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
   }
 }
