@@ -1,0 +1,44 @@
+a {
+  color: #2f56b0;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.4s ease-out;
+}
+
+a::after {
+  content: "";
+  border-bottom: 0.2rem solid #2f56b0;
+  position: absolute;
+  right: 100%;
+  left: 0;
+  bottom: 0.14rem;
+  transition: border-color, 0.4s ease-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #457dfb;
+}
+
+a:hover::after {
+  animation: anchor-underline 2s cubic-bezier(0, 0.5, 0, 1) infinite;
+  border-color: #457dfb;
+}
+
+@keyframes anchor-underline {
+  0%,
+  10% {
+    left: 0;
+    right: 100%;
+  }
+  40%,
+  60% {
+    left: 0;
+    right: 0;
+  }
+  90%,
+  100% {
+    left: 100%;
+    right: 0;
+  }
+}
